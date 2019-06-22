@@ -10,8 +10,7 @@ class CommentsController < ApplicationController
   # GET /comments/1
   # GET /comments/1.json
   def show
-    @comments = @idea.comments.all
-    @comment = @idea.comments.build
+
   end
 
   # GET /comments/new
